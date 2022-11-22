@@ -75,3 +75,29 @@ class Cercle : Point
         Console.Out.WriteLine("CERCLE(" + centre.X + "," + centre.Y + "," + rayon + ")");
     }
 }
+public class Droite : Point
+{
+    private int  A ;
+    private double B;
+
+
+    public Droite(double x, int y)
+    {
+        this.A = (int)x;
+        this.B = y;
+    }
+
+    public int NUM
+    {
+        get { return A; }
+        set { A = value; }
+    }
+
+    public double NUM2
+    {
+        get { return B; }
+        set { B = value; }
+    }
+
+  
+    }
